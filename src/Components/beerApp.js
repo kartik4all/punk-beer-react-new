@@ -63,10 +63,11 @@ class BeerApp extends Component {
       if (item.name == i.name) {
         exist = true;
         i.flag = item["flag"];
+        alert('Favourite status changed');
         return false;
       }
     });
-    !exist && this.filteredArray.push(item);
+    !exist && this.filteredArray.push(item) && alert('Added to favourites');
     this.setState({ filteredData: this.filteredArray });
   }
 
