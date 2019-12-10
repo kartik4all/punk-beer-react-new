@@ -6,7 +6,27 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.starBtn{
+  background-color: transparent;
+  border: 0px;
+  box-shadow: 0px
+}
+.fav{
+  color: blue
+}
 
+.card-title{
+  font-size: 16px
+}
+.card{
+  padding: 5px;
+  max-height: 300px;
+  min-height: 300px;
+  font-size: 13px;
+  margin:10px 0px;
+  overflow: hidden;
+  
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
